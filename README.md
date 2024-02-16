@@ -1,6 +1,16 @@
 # oai_opencells
-
-
+```
+apt update
+```
+```
+sudo apt install git 
+```
+```
+git config --global user.name "Laurent"
+```
+```
+git config --global user.email "laurent.thomas@open-cells.com"
+```
 
 
 
