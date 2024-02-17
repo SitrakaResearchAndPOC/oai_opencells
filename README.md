@@ -250,6 +250,9 @@ sudo mkdir -p /usr/local/etc/oai
 sudo cp -rp ~/opencells-mods/config_epc/* /usr/local/etc/oai
 ```
 ```
+cd 
+```
+```
 cd openair-cn; source oaienv; cd scripts
 ```
 ```
