@@ -1,7 +1,7 @@
 # oai_opencells
 ## Installing git
 ```
-apt update
+sudo apt update
 ```
 ```
 sudo apt install git 
@@ -17,6 +17,7 @@ git config --global user.email "laurent.thomas@open-cells.com"
 echo -n | openssl s_client -showcerts -connect gitlab.eurecom.fr:443 2>/dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | sudo tee -a /etc/ssl/certs/ca-certificates.crt
 ```
 ## Installing dependecies for uhd
+
 ```
 sudo apt-get install libboost-all-dev libusb-1.0-0-dev python-mako doxygen python-docutils python-requests python3-pip cmake build-essential
 ```
