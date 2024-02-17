@@ -99,7 +99,7 @@ We removed the installation of phpmyadmin (of course you can use it if you prefe
 sudo mysql -u root << END
 ```
 ```
-uninstall plugin validate_password;
+USE mysql;
 ```
 ```
 UPDATE user SET plugin='mysql_native_password' WHERE User='root';
@@ -109,9 +109,6 @@ FLUSH PRIVILEGES;
 ```
 ```
 END
-```
-```
-USE mysql;
 ```
 ```
 sudo systemctl restart mysql.service
@@ -128,6 +125,12 @@ Remove test database and access to it: yes </br>
 Reload privilege tables now: yes </br> </br>
 
 ## Installing MME
+```
+exit
+```
+```
+cd openair-cn; source oaienv; cd scripts
+```
 Install 3PP SW for mme and spgw </br>
 ```
 ./build_mme -i
