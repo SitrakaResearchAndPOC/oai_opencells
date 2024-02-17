@@ -118,6 +118,7 @@ sudo mysql_secure_installation
 ```
 The last command will ask a few questions: </br></br>
 password: set your password (linux is set in our default config files) </br>
+DEFAULT PASSWORD : linux </br>
 VALIDATE PASSWORD PLUGIN: no </br>
 Remove anonymous users: yes </br>
 Disallow root login remotely: yes </br>
