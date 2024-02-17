@@ -29,7 +29,13 @@ pip3 install mako numpy
 git clone https://github.com/EttusResearch/uhd.git
 ```
 ```
+cd uhd
+```
+```
 git checkout v3.15.0.0
+```
+```
+cd ..
 ```
 ```
 cd uhd; mkdir host/build; cd host/build
