@@ -155,6 +155,9 @@ Do you want to install libgtpnl ? <y/N>: y </br>
 
 ## Compile the EPC nodes
 ```
+cd
+```
+```
 cd openair-cn; source oaienv; cd scripts
 ```
 ```
