@@ -344,7 +344,9 @@ sudo bash
 ```
 cd ~/openairinterface5g; source oaienv
 ```
+```
 cd cmake_targets/lte_build_oai/build
+```
 ```
 ./lte-softmodem -O ~/opencells-mods/enb.10MHz.b200
 ```
