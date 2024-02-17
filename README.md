@@ -82,6 +82,9 @@ git checkout 724542d0b59797b010af8c5df15af7f669c1e838
 git apply ~/opencells-mods/EPC.patch
 ```
 ```
+cd ..
+```
+```
 cd openair-cn; source oaienv; cd scripts
 ```
 ```
