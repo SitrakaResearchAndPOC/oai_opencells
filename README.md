@@ -171,6 +171,9 @@ In there files, look for “error:” string.</br>
 
 ## Download & Compile the eNB on 18.04
 ```
+exit
+```
+```
 git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git
 ```
 ```
@@ -301,6 +304,10 @@ SIM card update </br>
 Open cells UICC and card reader will  be supported </br>
 
 ## Final test and verification
+```
+exit
+```
+
 open 4 terminal windows </br>
 in each window
 ```
