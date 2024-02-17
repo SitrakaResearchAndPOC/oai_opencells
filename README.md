@@ -310,24 +310,41 @@ SIM card update </br>
 Open cells UICC and card reader will  be supported </br>
 
 ## Final test and verification
-```
-cd
-```
 
 open 4 terminal windows </br>
 in each window
+* Terminal 1
+```
+cd
+```
 ```
 cd openair-cn; source oaienv; cd scripts; ./run_hss
+```
+* Terminal 2
+```
+cd
 ```
 ```
 cd openair-cn; source oaienv; cd scripts; ./run_mme
 ```
+* Terminal 3
+```
+cd
+```
 ```
 cd openair-cn; source oaienv; cd scripts; sudo -E ./run_spgw
 ```
+* Terminal 4
 ```
-sudo bash && cd ~/openairinterface5g; source oaienv
+cd
+```
+```
+sudo bash
+```
+cd ~/openairinterface5g; source oaienv
+```
 cd cmake_targets/lte_build_oai/build
+```
 ./lte-softmodem -O ~/opencells-mods/enb.10MHz.b200
 ```
 
