@@ -127,7 +127,7 @@ Reload privilege tables now: yes </br> </br>
 
 ## Installing MME
 ```
-exit
+cd
 ```
 ```
 cd openair-cn; source oaienv; cd scripts
@@ -171,7 +171,7 @@ In there files, look for “error:” string.</br>
 
 ## Download & Compile the eNB on 18.04
 ```
-exit
+cd
 ```
 ```
 git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git
@@ -305,7 +305,7 @@ Open cells UICC and card reader will  be supported </br>
 
 ## Final test and verification
 ```
-exit
+cd
 ```
 
 open 4 terminal windows </br>
