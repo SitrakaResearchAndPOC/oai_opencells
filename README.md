@@ -53,7 +53,10 @@ sudo make install
 sudo ldconfig
 ```
 ```
-uhd_images_downloader
+reboot
+```
+```
+sudo uhd_images_downloader
 ```
 ## Patch for opencells
 ```
