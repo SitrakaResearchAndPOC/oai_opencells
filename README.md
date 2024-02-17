@@ -132,6 +132,10 @@ exit
 ```
 cd openair-cn; source oaienv; cd scripts
 ```
+```
+gedit ../build/tools/build_helper
+```
+goto line 330 replace : git://git.osmocom.org/libgtpnl by https://git.osmocom.org/libgtpnl </br></br>
 Install 3PP SW for mme and spgw </br>
 ```
 ./build_mme -i
@@ -144,10 +148,6 @@ wireshark permissions: as you prefer </br>
 
 
 ## Installing SPGW
-```
-gedit ../build/tools/build_helper
-```
-goto line 330 replace : git://git.osmocom.org/libgtpnl by https://git.osmocom.org/libgtpnl 
 ```
  ./build_spgw -i
 ```
